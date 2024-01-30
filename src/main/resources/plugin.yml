@@ -1,0 +1,10 @@
+name: TestPlugin
+version: '${version}'
+main: com.oopaz.testplugin.TestPlugin
+api-version: '1.20'
+author: Oopaz
+
+commands:
+  tps:
+    description: "Displays the server TPS."
+    usage: "/tps"
