@@ -26,6 +26,11 @@ public class Components {
                 .append(Component.text(" " + player.getName()).color(NamedTextColor.GRAY));
     }
 
+    public static TextComponent getWelcomeMessage(Player player) {
+        return getMessagePrefix("!", NamedTextColor.LIGHT_PURPLE)
+                .append(Component.text(" Welcome " + player.getName() + " to the server!").color(NamedTextColor.GRAY));
+    }
+
     public static TextComponent getLeaveMessage(Player player) {
         return getMessagePrefix("-", NamedTextColor.RED)
                 .append(Component.text(" " + player.getName()).color(NamedTextColor.GRAY));
