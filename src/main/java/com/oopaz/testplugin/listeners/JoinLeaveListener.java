@@ -1,8 +1,8 @@
 package com.oopaz.testplugin.listeners;
 
-import com.oopaz.testplugin.Components;
 import com.oopaz.testplugin.TestPlugin;
 import com.oopaz.testplugin.WelcomeManager;
+import com.oopaz.testplugin.components.Components;
 
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

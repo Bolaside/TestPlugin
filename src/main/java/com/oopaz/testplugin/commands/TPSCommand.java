@@ -1,6 +1,6 @@
 package com.oopaz.testplugin.commands;
 
-import com.oopaz.testplugin.Components;
+import com.oopaz.testplugin.components.Components;
 import com.oopaz.testplugin.utils.Rounder;
 import net.kyori.adventure.text.TextComponent;
 import org.bukkit.command.Command;
